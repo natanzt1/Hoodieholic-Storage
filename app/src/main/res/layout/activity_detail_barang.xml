@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:id="@+id/img_contact"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/contact"/>
+
+    <TextView
+        android:id="@+id/tv_detail_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nama Barang"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stok Barang: "
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/tv_detail_stok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-light"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_detail_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Edit Barang"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_selector"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_profil_logout"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_warning"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

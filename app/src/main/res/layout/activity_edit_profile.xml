@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/grad_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_contact"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/contact"/>
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Edit Profile"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:id="@+id/et_edit_nama"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        android:text="Nama Anda"/>
+
+    <EditText
+        android:id="@+id/et_edit_username"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:clickable="false"
+        android:text="Username"/>
+
+    <Button
+        android:id="@+id/edit_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Simpan Perubahan"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_selector"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+</LinearLayout>

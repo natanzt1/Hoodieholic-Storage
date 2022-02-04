@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    android:clickable="true"
+    android:backgroundTint="@color/transparent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/recycler_bg"
+        >
+        <ImageView
+            android:id="@+id/iv_transaksi_barang"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/contact"/>
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_transaksi_nama_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:text="Om Tampan"
+                android:textAllCaps="true"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_transaksi_nama_barang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:text="Hoodie Widcal Black" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_transaksi_ket1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    tools:text="Jumlah : " />
+
+                <TextView
+                    android:id="@+id/tv_transaksi_jumlah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="5"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_transaksi_ket2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    tools:text=" Pcs" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp">
+                <TextView
+                    android:id="@+id/tv_transaksi_ket3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:text="Tanggal : "
+                    android:layout_marginTop="0dp"/>
+                <TextView
+                    android:id="@+id/tv_transaksi_tanggal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:text="22 Desember 2018" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

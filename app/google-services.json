@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "961123644233",
+    "firebase_url": "https://storagehoodieholic.firebaseio.com",
+    "project_id": "storagehoodieholic",
+    "storage_bucket": "storagehoodieholic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961123644233:android:4f2baa1b80bba80a",
+        "android_client_info": {
+          "package_name": "id.technologyartisan.workshopandroid2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961123644233-fsejm6arnfhbl1qob94dav3vkdj4ku3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.technologyartisan.workshopandroid2",
+            "certificate_hash": "c8a09aad4682e9fac83bf52cbe42ee6ab112e535"
+          }
+        },
+        {
+          "client_id": "961123644233-hed5umcqjlmv0e0jkfcpe8oqbeopo22t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOkyXlcQbQpDZ-ralhhPU8pF0Q80mIwNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961123644233-hed5umcqjlmv0e0jkfcpe8oqbeopo22t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

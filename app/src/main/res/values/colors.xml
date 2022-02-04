@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorHoodieholic">#100851</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkWhite">#D5D5D5</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradstart">#19AA8B</color>
+    <color name="gradstop">#23A7D8</color>
+    <color name="black">#333</color>
+    <color name="blue1">#0E4D92</color>
+    <color name="blue2">#002366</color>
+    <color name="blue3">#0F4C81</color>
+</resources>
+

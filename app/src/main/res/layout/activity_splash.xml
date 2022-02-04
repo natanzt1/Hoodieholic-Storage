@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/grad_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cat-Dog
+Detection"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/img_detection_upload"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_artbuy" />
+
+</LinearLayout>

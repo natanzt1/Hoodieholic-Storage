@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_contact"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/contact"/>
+
+    <TextView
+        android:id="@+id/tv_profil_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nama User"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/tv_profil_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"/>
+
+    <Button
+        android:id="@+id/btn_profil_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Edit Profile"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_selector"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_profil_logout"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_warning"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+</LinearLayout>

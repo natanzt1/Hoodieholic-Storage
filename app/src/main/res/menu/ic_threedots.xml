@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Ambil Barang"
+        android:id="@+id/threedots_ambil"/>
+    <item android:title="Edit Barang"
+        android:id="@+id/threedots_edit"/>
+    <item android:title="Hapus Barang"
+        android:id="@+id/threedots_delete"/>
+</menu>
